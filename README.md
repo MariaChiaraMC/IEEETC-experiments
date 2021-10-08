@@ -4,5 +4,9 @@ XOR-AND Graphs (XAGs) are an enrichment of the classical Add Inverted Graphs (AI
 
 In this experiments we apply the Autosymmetry and D-Reducibility properties and the mockturtle minimization tool to some Boolean functions, highlighting as the minimization tool reaches best resuls in most cases (namely, final functions with less AND gates) w.r.t. when the studied properties are not exploited.
 
+benchmark-autosymmetry: it contains verilogs of the experiments when ony autosymmetry property is applied. Folders orig and restrictions contain the .v files that are inputs for the mockturtle, of the original functions and the restrictions after the autosymmetry test respectively. Folders orig_after_mockturtle and restrictions_after_mockturtle contain the results after the application of mockturtle tool.
 
+benkmrk-autosymmetry-Dreduction:
+
+Link to the mokturtle GitHub: https://github.com/eletesta/dac19-experiments
 
