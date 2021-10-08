@@ -1,0 +1,125 @@
+# ./espresso -t ./ex1010.pla_dbb_orig_9.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=111(111) in=1086 out=111 tot=1197
+# COMPL      	Time was 0.00 sec, cost is c=206(191) in=1285 out=206 tot=1491
+# PLA is ./ex1010.pla_dbb_orig_9.pla with 10 inputs and 1 outputs
+# ON-set cost is  c=111(111) in=1086 out=111 tot=1197
+# OFF-set cost is c=206(191) in=1285 out=206 tot=1491
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=90(0) in=834 out=90 tot=924
+# IRRED      	Time was 0.00 sec, cost is c=87(0) in=807 out=87 tot=894
+# ESSEN      	Time was 0.00 sec, cost is c=73(0) in=683 out=73 tot=756
+# REDUCE     	Time was 0.00 sec, cost is c=14(7) in=133 out=14 tot=147
+# EXPAND     	Time was 0.00 sec, cost is c=13(0) in=115 out=13 tot=128
+# IRRED      	Time was 0.00 sec, cost is c=12(0) in=106 out=12 tot=118
+# REDUCE     	Time was 0.00 sec, cost is c=12(3) in=110 out=12 tot=122
+# EXPAND     	Time was 0.00 sec, cost is c=12(0) in=106 out=12 tot=118
+# IRRED      	Time was 0.00 sec, cost is c=12(0) in=106 out=12 tot=118
+# REDUCE_GASP	Time was 0.00 sec, cost is c=12(3) in=110 out=12 tot=122
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=12(0) in=106 out=12 tot=118
+# ADJUST     	Cost is c=85(0) in=789 out=85 tot=874
+# MV_REDUCE  	Time was 0.00 sec, cost is c=85(0) in=789 out=85 tot=874
+# VERIFY     	Time was 0.00 sec, cost is c=85(0) in=789 out=85 tot=874
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 3 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 3 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 2 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=85(0) in=789 out=85 tot=874
+.i 10
+.o 1
+.p 85
+110-010111 1
+00110001-0 1
+-010010000 1
+-100111010 1
+1100-0111- 1
+00-0100101 1
+10101110-0 1
+000010011- 1
+0010100-00 1
+0000101-10 1
+10001-1010 1
+1-101-0000 1
+0101000000 1
+0001101100 1
+0111101-01 1
+-001001011 1
+-100100000 1
+1111000100 1
+0000001100 1
+1101100001 1
+-001100011 1
+000-110001 1
+0010001101 1
+0-11010100 1
+0101000110 1
+01011-1001 1
+1111001101 1
+0101011100 1
+1101000101 1
+0000000010 1
+011-101110 1
+1010001001 1
+0-01010101 1
+0000011000 1
+0110011000 1
+-001110100 1
+0011-00111 1
+111010-000 1
+1100001001 1
+1001010001 1
+-001111010 1
+1011001110 1
+-011010100 1
+1011-11101 1
+1111000111 1
+011010-110 1
+00-1011111 1
+1011010010 1
+1100001-10 1
+1110100101 1
+1010000011 1
+1001-11010 1
+-1-0101111 1
+111111-010 1
+100-100011 1
+0010110011 1
+-010011110 1
+1-00001111 1
+1000010101 1
+101-010111 1
+0-00010111 1
+-110011111 1
+1100111100 1
+1110011010 1
+0100111-10 1
+1110-11101 1
+0010111111 1
+1110-10011 1
+1111111111 1
+1100011011 1
+11001-1111 1
+00110110-0 1
+000011-001 1
+1111010-01 1
+001001000- 1
+11011011-0 1
+01011101-0 1
+100110001- 1
+111110001- 1
+01001-101- 1
+01101100-0 1
+11000100-0 1
+1011110-11 1
+101011000- 1
+110101111- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=85(0) in=789 out=85 tot=874
