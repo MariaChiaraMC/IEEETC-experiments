@@ -1,0 +1,42 @@
+# ./espresso -t ./br2.pla_dbb_orig_6.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=5(5) in=53 out=5 tot=58
+# COMPL      	Time was 0.00 sec, cost is c=19(19) in=40 out=19 tot=59
+# PLA is ./br2.pla_dbb_orig_6.pla with 12 inputs and 1 outputs
+# ON-set cost is  c=5(5) in=53 out=5 tot=58
+# OFF-set cost is c=19(19) in=40 out=19 tot=59
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+# IRRED      	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+# ESSEN      	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=5(0) in=52 out=5 tot=57
+# MV_REDUCE  	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+# VERIFY     	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
+.i 12
+.o 1
+.p 5
+101111111110 1
+1011101101-- 1
+10-0110011-0 1
+100-110011-0 1
+1010011111-- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=5(0) in=52 out=5 tot=57
