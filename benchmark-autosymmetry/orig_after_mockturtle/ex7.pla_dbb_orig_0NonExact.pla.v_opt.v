@@ -1,0 +1,27 @@
+module top( x0 , x1 , x2 , x3 , x4 , x5 , x6 , y0 );
+  input x0 , x1 , x2 , x3 , x4 , x5 , x6 ;
+  output y0 ;
+  wire n8 , n9 , n10 , n11 , n12 , n13 , n14 , n15 , n16 , n17 , n18 , n19 , n20 , n21 , n22 , n23 , n24 , n25 , n26 , n27 , n28 ;
+  assign n8 = x1 & x6 ;
+  assign n9 = n8 ^ x5 ;
+  assign n10 = x3 & n9 ;
+  assign n11 = x3 ^ x2 ;
+  assign n12 = x3 ^ x0 ;
+  assign n13 = x2 ^ x1 ;
+  assign n14 = n13 ^ x3 ;
+  assign n15 = ~x3 & ~n14 ;
+  assign n16 = n15 ^ x3 ;
+  assign n17 = n12 & ~n16 ;
+  assign n18 = n17 ^ n15 ;
+  assign n19 = n18 ^ x3 ;
+  assign n20 = n19 ^ n13 ;
+  assign n21 = ~n11 & ~n20 ;
+  assign n22 = n21 ^ x2 ;
+  assign n23 = ~n10 & ~n22 ;
+  assign n24 = x5 ^ x4 ;
+  assign n25 = x1 & n24 ;
+  assign n26 = n25 ^ x6 ;
+  assign n27 = x2 & ~n26 ;
+  assign n28 = ~n23 & ~n27 ;
+  assign y0 = n28 ;
+endmodule

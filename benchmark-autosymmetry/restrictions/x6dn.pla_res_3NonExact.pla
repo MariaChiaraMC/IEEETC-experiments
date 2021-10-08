@@ -1,0 +1,80 @@
+# ./espresso -t ./x6dn.pla_res_3.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=98(98) in=1263 out=98 tot=1361
+# COMPL      	Time was 0.00 sec, cost is c=77(77) in=568 out=77 tot=645
+# PLA is ./x6dn.pla_res_3.pla with 34 inputs and 1 outputs
+# ON-set cost is  c=98(98) in=1263 out=98 tot=1361
+# OFF-set cost is c=77(77) in=568 out=77 tot=645
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=38(0) in=274 out=38 tot=312
+# IRRED      	Time was 0.00 sec, cost is c=36(0) in=259 out=36 tot=295
+# ESSEN      	Time was 0.00 sec, cost is c=25(0) in=180 out=25 tot=205
+# REDUCE     	Time was 0.00 sec, cost is c=11(11) in=102 out=11 tot=113
+# EXPAND     	Time was 0.00 sec, cost is c=10(0) in=75 out=10 tot=85
+# IRRED      	Time was 0.00 sec, cost is c=10(0) in=75 out=10 tot=85
+# REDUCE     	Time was 0.00 sec, cost is c=10(9) in=94 out=10 tot=104
+# EXPAND     	Time was 0.00 sec, cost is c=10(0) in=75 out=10 tot=85
+# IRRED      	Time was 0.00 sec, cost is c=10(0) in=75 out=10 tot=85
+# REDUCE_GASP	Time was 0.00 sec, cost is c=10(9) in=96 out=10 tot=106
+# EXPAND_GASP	Time was 0.00 sec, cost is c=2(0) in=14 out=2 tot=16
+# IRRED_GASP 	Time was 0.00 sec, cost is c=9(0) in=68 out=9 tot=77
+# REDUCE     	Time was 0.00 sec, cost is c=9(8) in=82 out=9 tot=91
+# EXPAND     	Time was 0.00 sec, cost is c=9(0) in=68 out=9 tot=77
+# IRRED      	Time was 0.00 sec, cost is c=9(0) in=68 out=9 tot=77
+# REDUCE_GASP	Time was 0.00 sec, cost is c=9(8) in=82 out=9 tot=91
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=9(0) in=68 out=9 tot=77
+# ADJUST     	Cost is c=34(0) in=248 out=34 tot=282
+# MV_REDUCE  	Time was 0.00 sec, cost is c=34(0) in=248 out=34 tot=282
+# VERIFY     	Time was 0.00 sec, cost is c=34(0) in=248 out=34 tot=282
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 4 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 4 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 3 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 2 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=34(0) in=248 out=34 tot=282
+.i 34
+.o 1
+.p 34
+-1000011--100--------------------- 1
+-100001110-0---------------------- 1
+-11000--------1--0---------------- 1
+-11000---------0-1---------------- 1
+-11000--------01------------------ 1
+-1000011--01---------------------- 1
+-100001101------------------------ 1
+11-1---------0-------------------- 1
+111-0--------1-------------------- 1
+-1-000-------0-------------111-1-- 1
+-1-000-------0----------------1--- 1
+-110-0-------0-0---0-0------------ 1
+-101-0-------1---1---0--1-0------- 1
+-110-0-------0-0110--0------------ 1
+-110-0-------0-0---00------------- 1
+-101-0-------1---1--0---1-0------- 1
+-101-0-------1---1---0--10-------- 1
+-110-0-------0-0110-0------------- 1
+-101-0-------1---1--0---10-------- 1
+-11000-----------------0---------- 1
+-10110-------0-----0-------------- 1
+-11001-------1-1----------------0- 1
+-11011-------0-------10----------- 1
+-10110-------0-1--0--------------- 1
+1111-1---------------------------- 1
+-110-0------00-1------------------ 1
+-11101-------0-------------------- 1
+-10001-------0-------------------1 1
+11--1--------0-------------------- 1
+-10010-------01------------------- 1
+-10100-------1-------------------- 1
+110--0---------------------------- 1
+-11000-------0-------------------- 1
+1100------------------------------ 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=34(0) in=248 out=34 tot=282
