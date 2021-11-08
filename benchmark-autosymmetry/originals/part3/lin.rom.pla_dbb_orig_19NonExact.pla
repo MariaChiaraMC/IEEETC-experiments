@@ -1,0 +1,48 @@
+# ./espresso -t ./lin.rom.pla_dbb_orig_19.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=47(47) in=293 out=47 tot=340
+# COMPL      	Time was 0.00 sec, cost is c=12(12) in=56 out=12 tot=68
+# PLA is ./lin.rom.pla_dbb_orig_19.pla with 7 inputs and 1 outputs
+# ON-set cost is  c=47(47) in=293 out=47 tot=340
+# OFF-set cost is c=12(12) in=56 out=12 tot=68
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=11(0) in=38 out=11 tot=49
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=38 out=11 tot=49
+# ESSEN      	Time was 0.00 sec, cost is c=7(0) in=22 out=7 tot=29
+# REDUCE     	Time was 0.00 sec, cost is c=4(4) in=26 out=4 tot=30
+# EXPAND     	Time was 0.00 sec, cost is c=4(0) in=14 out=4 tot=18
+# IRRED      	Time was 0.00 sec, cost is c=4(0) in=14 out=4 tot=18
+# REDUCE_GASP	Time was 0.00 sec, cost is c=4(4) in=28 out=4 tot=32
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=4(0) in=14 out=4 tot=18
+# ADJUST     	Cost is c=11(0) in=36 out=11 tot=47
+# MV_REDUCE  	Time was 0.00 sec, cost is c=11(0) in=36 out=11 tot=47
+# VERIFY     	Time was 0.00 sec, cost is c=11(0) in=36 out=11 tot=47
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=11(0) in=36 out=11 tot=47
+.i 7
+.o 1
+.p 11
+-----00 1
+1-1-1-1 1
+-11-1-1 1
+000---0 1
+---11-1 1
+----0-0 1
+---0--0 1
+00-001- 1
+--0001- 1
+--1-10- 1
+-1--10- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=11(0) in=36 out=11 tot=47

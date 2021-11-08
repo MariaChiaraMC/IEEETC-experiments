@@ -1,0 +1,97 @@
+# ./espresso -t ./mainpla.pla_dbb_orig_29.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=1135(1135) in=15743 out=1135 tot=16878
+# COMPL      	Time was 0.00 sec, cost is c=305(243) in=2718 out=305 tot=3023
+# PLA is ./mainpla.pla_dbb_orig_29.pla with 21 inputs and 1 outputs
+# ON-set cost is  c=1135(1135) in=15743 out=1135 tot=16878
+# OFF-set cost is c=305(243) in=2718 out=305 tot=3023
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=119(0) in=941 out=119 tot=1060
+# IRRED      	Time was 0.00 sec, cost is c=59(0) in=485 out=59 tot=544
+# ESSEN      	Time was 0.00 sec, cost is c=27(0) in=189 out=27 tot=216
+# REDUCE     	Time was 0.00 sec, cost is c=32(32) in=467 out=32 tot=499
+# EXPAND     	Time was 0.00 sec, cost is c=30(0) in=282 out=30 tot=312
+# IRRED      	Time was 0.00 sec, cost is c=30(0) in=282 out=30 tot=312
+# REDUCE     	Time was 0.00 sec, cost is c=30(30) in=427 out=30 tot=457
+# EXPAND     	Time was 0.00 sec, cost is c=30(0) in=282 out=30 tot=312
+# IRRED      	Time was 0.00 sec, cost is c=30(0) in=282 out=30 tot=312
+# REDUCE_GASP	Time was 0.00 sec, cost is c=30(30) in=449 out=30 tot=479
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=30(0) in=282 out=30 tot=312
+# ADJUST     	Cost is c=57(0) in=471 out=57 tot=528
+# MV_REDUCE  	Time was 0.00 sec, cost is c=57(0) in=471 out=57 tot=528
+# VERIFY     	Time was 0.00 sec, cost is c=57(0) in=471 out=57 tot=528
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec (23.5%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 3 call(s) for 0.00 sec (23.5%)
+# IRRED      	 3 call(s) for 0.00 sec (23.5%)
+# REDUCE     	 2 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec (23.5%)
+# ESPRESSO	Time was 0.01 sec, cost is c=57(0) in=471 out=57 tot=528
+.i 21
+.o 1
+.p 57
+--10-1-1----1------00 1
+--10-1----10-------00 1
+0-0-0-00110100-----00 1
+--10-1-----0---1---00 1
+0-0-0-0001-000-----00 1
+1-100-00110100-----00 1
+--10-1-----0-1-----00 1
+1-100-0001-000-----00 1
+--10-1----010---0--00 1
+-1100-00110100-----00 1
+-1100-0001-000-----00 1
+---0-1--0100-1-----00 1
+1-100-000-1000-----00 1
+-0010-0001-000-----00 1
+-1100-000-1000-----00 1
+--10-1-1-----0-----00 1
+-0010---111000-----00 1
+-0-0-1--01-10------00 1
+1-100---111000-----00 1
+--10-1----1--1-----00 1
+-1100---111000-----00 1
+--10-101-----------00 1
+--10-1-------1-1---00 1
+--0-01---1--00-----00 1
+--10-110-----------00 1
+-1-0-1-------1-----00 1
+--00-1------01-----00 1
+1--110-------------00 1
+10-01--------------00 1
+-11--1-------------00 1
+--10-1-----------1-00 1
+------------------0-1 1
+------------------01- 1
+--10-1------10-----00 1
+----01--0001-1-----00 1
+----01000-1000-----00 1
+000-0-000-1000-----00 1
+----01--111000-----00 1
+-0-10-00110100-----00 1
+--10-1--0--0-------00 1
+----010000010------00 1
+--------------0------ 1
+----010001-000-----00 1
+--10-1--1--1-------00 1
+1010----0001-------00 1
+---0-1---1110------00 1
+--10-1---1---------00 1
+01-0-1-------------00 1
+-1-110-------------00 1
+-001-1-------------00 1
+---001-------------00 1
+011-1--------------00 1
+0-000--------------00 1
+010-01--------------- 1
+10-101--------------- 1
+101-01--------------- 1
+01000---------------- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=57(0) in=471 out=57 tot=528

@@ -1,0 +1,65 @@
+# ./espresso -t ./in0.pla_dbb_orig_6.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=726(726) in=8389 out=726 tot=9115
+# COMPL      	Time was 0.00 sec, cost is c=46(45) in=304 out=46 tot=350
+# PLA is ./in0.pla_dbb_orig_6.pla with 15 inputs and 1 outputs
+# ON-set cost is  c=726(726) in=8389 out=726 tot=9115
+# OFF-set cost is c=46(45) in=304 out=46 tot=350
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=36(0) in=274 out=36 tot=310
+# IRRED      	Time was 0.00 sec, cost is c=28(0) in=197 out=28 tot=225
+# ESSEN      	Time was 0.00 sec, cost is c=20(0) in=131 out=20 tot=151
+# REDUCE     	Time was 0.00 sec, cost is c=8(8) in=81 out=8 tot=89
+# EXPAND     	Time was 0.00 sec, cost is c=8(0) in=66 out=8 tot=74
+# IRRED      	Time was 0.00 sec, cost is c=8(0) in=66 out=8 tot=74
+# REDUCE_GASP	Time was 0.00 sec, cost is c=8(8) in=81 out=8 tot=89
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=8(0) in=66 out=8 tot=74
+# ADJUST     	Cost is c=28(0) in=197 out=28 tot=225
+# MV_REDUCE  	Time was 0.00 sec, cost is c=28(0) in=197 out=28 tot=225
+# VERIFY     	Time was 0.00 sec, cost is c=28(0) in=197 out=28 tot=225
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec (80.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=28(0) in=197 out=28 tot=225
+.i 15
+.o 1
+.p 28
+1-00-010--0000- 1
+-0-0100---0000- 1
+1-11111---0000- 1
+00------0-1-01- 1
+11011-----0000- 1
+110-0-0---0000- 1
+00----0--00000- 1
+11--------1-01- 1
+00------0-1-0-1 1
+-----------10-1 1
+----------1011- 1
+11--------1-0-1 1
+------11-10000- 1
+00000---00--01- 1
+-----------101- 1
+----------011-- 1
+-1-------10000- 1
+11000----0--01- 1
+----1----10000- 1
+---1-----10000- 1
+00---0----0000- 1
+--1------10000- 1
+0-10-01---0000- 1
+1101-0----0000- 1
+0-1000----0000- 1
+11-001----0000- 1
+1011------0000- 1
+1000------0000- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=28(0) in=197 out=28 tot=225

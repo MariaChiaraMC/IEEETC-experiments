@@ -1,0 +1,48 @@
+# ./espresso -t ./bcc.pla_res_30.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=13(13) in=192 out=13 tot=205
+# COMPL      	Time was 0.00 sec, cost is c=55(55) in=150 out=55 tot=205
+# PLA is ./bcc.pla_res_30.pla with 15 inputs and 1 outputs
+# ON-set cost is  c=13(13) in=192 out=13 tot=205
+# OFF-set cost is c=55(55) in=150 out=55 tot=205
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168
+# ESSEN      	Time was 0.00 sec, cost is c=9(0) in=129 out=9 tot=138
+# REDUCE     	Time was 0.00 sec, cost is c=2(2) in=30 out=2 tot=32
+# EXPAND     	Time was 0.00 sec, cost is c=2(0) in=28 out=2 tot=30
+# IRRED      	Time was 0.00 sec, cost is c=2(0) in=28 out=2 tot=30
+# REDUCE_GASP	Time was 0.00 sec, cost is c=2(2) in=30 out=2 tot=32
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=2(0) in=28 out=2 tot=30
+# ADJUST     	Cost is c=11(0) in=157 out=11 tot=168
+# MV_REDUCE  	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168
+# VERIFY     	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168
+.i 15
+.o 1
+.p 11
+11-000110000110 1
+10111011-110001 1
+000-01101110010 1
+00000-101110010 1
+010110111010001 1
+111100101100001 1
+1-0000110000110 1
+1011101111-0001 1
+111100111000001 1
+1-1100110000110 1
+1011101100-0001 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=11(0) in=157 out=11 tot=168

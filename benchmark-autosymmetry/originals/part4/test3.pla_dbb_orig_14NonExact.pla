@@ -1,0 +1,113 @@
+# ./espresso -t ./test3.pla_dbb_orig_14.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=93(93) in=921 out=93 tot=1014
+# COMPL      	Time was 0.00 sec, cost is c=177(69) in=1068 out=177 tot=1245
+# PLA is ./test3.pla_dbb_orig_14.pla with 10 inputs and 1 outputs
+# ON-set cost is  c=93(93) in=921 out=93 tot=1014
+# OFF-set cost is c=177(69) in=1068 out=177 tot=1245
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794
+# IRRED      	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794
+# ESSEN      	Time was 0.00 sec, cost is c=73(0) in=691 out=73 tot=764
+# REDUCE     	Time was 0.00 sec, cost is c=3(2) in=29 out=3 tot=32
+# EXPAND     	Time was 0.00 sec, cost is c=3(0) in=27 out=3 tot=30
+# IRRED      	Time was 0.00 sec, cost is c=3(0) in=27 out=3 tot=30
+# REDUCE_GASP	Time was 0.00 sec, cost is c=3(2) in=29 out=3 tot=32
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=3(0) in=27 out=3 tot=30
+# ADJUST     	Cost is c=76(0) in=718 out=76 tot=794
+# MV_REDUCE  	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794
+# VERIFY     	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794
+.i 10
+.o 1
+.p 76
+0-00101101 1
+1-00000111 1
+11000101-1 1
+1111100100 1
+011100-010 1
+1011000000 1
+1101-01000 1
+11111-1111 1
+0111111000 1
+0010110110 1
+0101110110 1
+-111011010 1
+1111000011 1
+01-1101011 1
+1000100100 1
+-010110011 1
+1100110100 1
+-001000010 1
+00101-0011 1
+1010000100 1
+1-00111010 1
+1110110101 1
+1101000100 1
+1000101110 1
+-111011100 1
+11010010-0 1
+0101100111 1
+1010101001 1
+0001-01100 1
+0011111011 1
+000-110000 1
+0010001010 1
+10-0000111 1
+1001010100 1
+-000111010 1
+1001011010 1
+11-0010001 1
+000100-010 1
+0011-00101 1
+0110111101 1
+010-101011 1
+0101111111 1
+011-011100 1
+0010011110 1
+0100-10001 1
+0010111001 1
+0000111100 1
+0111001101 1
+00100-0001 1
+100100-101 1
+1101001111 1
+0101011000 1
+1001010111 1
+0100010100 1
+0110010101 1
+0100000011 1
+00-0010111 1
+0100-01100 1
+0000110101 1
+1010011001 1
+0010001111 1
+1-01011101 1
+00-0011011 1
+1-00010001 1
+0001001111 1
+110001-001 1
+00000-1011 1
+0011100-01 1
+100-011101 1
+-001011101 1
+110010-111 1
+000111000- 1
+110100100- 1
+100011100- 1
+11100111-1 1
+0000101-01 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=76(0) in=718 out=76 tot=794

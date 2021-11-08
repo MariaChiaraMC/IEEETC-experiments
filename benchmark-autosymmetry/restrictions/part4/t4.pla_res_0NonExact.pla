@@ -1,0 +1,47 @@
+# ./espresso -t ./t4.pla_res_0.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=10(10) in=78 out=10 tot=88
+# COMPL      	Time was 0.00 sec, cost is c=15(9) in=37 out=15 tot=52
+# PLA is ./t4.pla_res_0.pla with 9 inputs and 1 outputs
+# ON-set cost is  c=10(10) in=78 out=10 tot=88
+# OFF-set cost is c=15(9) in=37 out=15 tot=52
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+# IRRED      	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+# ESSEN      	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=10(0) in=70 out=10 tot=80
+# MV_REDUCE  	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+# VERIFY     	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80
+.i 9
+.o 1
+.p 10
+0001-1011 1
+00010-011 1
+01101--00 1
+010110011 1
+01101-1-0 1
+011010--0 1
+0100---01 1
+01000--0- 1
+0100--1-1 1
+01000-1-- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=10(0) in=70 out=10 tot=80

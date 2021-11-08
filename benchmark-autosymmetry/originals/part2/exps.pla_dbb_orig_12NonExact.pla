@@ -1,0 +1,49 @@
+# ./espresso -t ./exps.pla_dbb_orig_12.pla
+# UC Berkeley, Espresso Version #2.3, Release date 01/31/88
+# READ       	Time was 0.00 sec, cost is c=14(14) in=107 out=14 tot=121
+# COMPL      	Time was 0.00 sec, cost is c=26(26) in=82 out=26 tot=108
+# PLA is ./exps.pla_dbb_orig_12.pla with 8 inputs and 1 outputs
+# ON-set cost is  c=14(14) in=107 out=14 tot=121
+# OFF-set cost is c=26(26) in=82 out=26 tot=108
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
+# IRRED      	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
+# ESSEN      	Time was 0.00 sec, cost is c=11(0) in=79 out=11 tot=90
+# REDUCE     	Time was 0.00 sec, cost is c=1(1) in=8 out=1 tot=9
+# EXPAND     	Time was 0.00 sec, cost is c=1(0) in=7 out=1 tot=8
+# IRRED      	Time was 0.00 sec, cost is c=1(0) in=7 out=1 tot=8
+# REDUCE_GASP	Time was 0.00 sec, cost is c=1(1) in=8 out=1 tot=9
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED_GASP 	Time was 0.00 sec, cost is c=1(0) in=7 out=1 tot=8
+# ADJUST     	Cost is c=12(0) in=86 out=12 tot=98
+# MV_REDUCE  	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
+# VERIFY     	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
+# READ       	 1 call(s) for 0.00 sec ( 0.0%)
+# COMPL      	 1 call(s) for 0.00 sec ( 0.0%)
+# ESSEN      	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND     	 2 call(s) for 0.00 sec ( 0.0%)
+# IRRED      	 2 call(s) for 0.00 sec ( 0.0%)
+# REDUCE     	 1 call(s) for 0.00 sec ( 0.0%)
+# EXPAND_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# IRRED_GASP 	 1 call(s) for 0.00 sec ( 0.0%)
+# REDUCE_GASP	 1 call(s) for 0.00 sec ( 0.0%)
+# MV_REDUCE  	 1 call(s) for 0.00 sec ( 0.0%)
+# VERIFY     	 1 call(s) for 0.00 sec ( 0.0%)
+# ESPRESSO	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
+.i 8
+.o 1
+.p 12
+011-0110 1
+10011101 1
+0-100000 1
+01100011 1
+0-011110 1
+000-1011 1
+00001-11 1
+00010010 1
+0011000- 1
+0110111- 1
+0000101- 1
+011101-- 1
+.e
+# WRITE      	Time was 0.00 sec, cost is c=12(0) in=86 out=12 tot=98
